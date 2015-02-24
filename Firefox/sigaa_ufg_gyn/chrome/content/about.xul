@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog 
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    title="Sobre o SIGAA UFG-Goiânia" 
+    buttons="accept" buttonlabelaccept="Fechar">
+    <description width="300px">
+    	<html:p>
+    		SIGAA UFG-Goiânia permite uma forma mais fácil de entender os horários no sistema SIGAA.
+    	</html:p>
+    	Rafael Grisotto.<html:br/>
+    	grisotto at yahoo.com<html:br/>
+    	http://ufg.br
+    </description>
+</dialog>
