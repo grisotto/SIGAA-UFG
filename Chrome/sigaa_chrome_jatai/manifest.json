@@ -16,7 +16,7 @@
    "manifest_version": 2,
    "name": "SIGAA-UFG-Jatai",
    "permissions": [ "https://sigaa.sistemas.ufg.br/*" ],
-   "version": "1.0",
+   "version": "1.11",
      "description": "SIGAA UFG-Jataí permite uma forma mais fácil de entender os horários no sistema SIGAA."
 
  

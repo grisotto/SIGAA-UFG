@@ -5,7 +5,7 @@
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="sigaaufggoania@grisotto"
                    em:name="SIGAA UFG-Goiânia"
-                   em:version="1.0"
+                   em:version="1.11"
                    em:creator="Rafael Grisotto (grisotto at yahoo.com)"
                    em:description="SIGAA UFG-Goiânia permite uma forma mais fácil de entender os horários no sistema SIGAA"
                    em:homepageURL="http://ufg.br"

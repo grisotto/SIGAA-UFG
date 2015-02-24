@@ -301,7 +301,7 @@ var sigaafacil = function () {
 					//Verifica se possui a tabela de turmas selecionadas (matrícula concluída):
 					var tableMatriculaConcluida = doc.getElementsByClassName("listagem");
 					if (tableMatriculaConcluida.length && 
-							tableMatriculaConcluida[0].caption.innerHTML.toLowerCase().indexOf("turmas selecionadas") != -1) {
+							tableMatriculaConcluida[0].caption.innerHTML.toLowerCase().indexOf("turmas") != -1) {
 						table = tableMatriculaConcluida[0];
 					} else {
 						//alert("Esta página não parece conter horários");
