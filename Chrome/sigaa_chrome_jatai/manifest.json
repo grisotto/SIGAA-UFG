@@ -1,7 +1,7 @@
 {
    "content_scripts": [ {
       "css": [ "skin.css" ],
-      "js": [ "load.js" ],
+      "js": [ "jquery.js", "load.js" ],
       "matches": [ "https://sigaa.sistemas.ufg.br/*" ],
       "run_at": "document_start"
    } ],
@@ -16,7 +16,7 @@
    "manifest_version": 2,
    "name": "SIGAA-UFG-Jatai",
    "permissions": [ "https://sigaa.sistemas.ufg.br/*" ],
-   "version": "1.11",
+   "version": "1.20",
      "description": "SIGAA UFG-Jataí permite uma forma mais fácil de entender os horários no sistema SIGAA."
 
  

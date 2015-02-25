@@ -32,7 +32,15 @@ window.addEventListener('DOMContentLoaded', run, false);
 						table = tableMatriculaConcluida[0];
 					} else {
 						//alert("Esta página não parece conter horários");
+						 $('[style^=margin-top]').attr('id', 'lista-turmas');
+						table = document.getElementById("lista-turmas");
+						
+						
+						
+						if(table == null){
+						
 						return;
+						}
 					}
 				}
 				

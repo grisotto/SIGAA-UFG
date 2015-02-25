@@ -1,6 +1,7 @@
 /**
  * 
  */
+ $('[style^=margin-top]').attr('id', 'lista-turmas');
 var sigaafacil = function () {
 	var prefManager = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
 	return {
@@ -297,10 +298,6 @@ var sigaafacil = function () {
 							tableMatriculaConcluida[0].caption.innerHTML.toLowerCase().indexOf("turmas") != -1) {
 						table = tableMatriculaConcluida[0];
 					} else {
-						//pegar os horarios na pagina principal
-					        table = doc.getElementsByClassName("info");
-						if(table == null)
-
 						//alert("Esta página não parece conter horários");
 						return;
 					}
